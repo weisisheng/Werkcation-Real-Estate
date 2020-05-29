@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/Werkcation-Real-Estate/static/css/main.5f361e03.chunk.css",
-    "main.js": "/Werkcation-Real-Estate/static/js/main.8eaefe3f.chunk.js",
-    "main.js.map": "/Werkcation-Real-Estate/static/js/main.8eaefe3f.chunk.js.map",
+    "main.css": "/Werkcation-Real-Estate/static/css/main.64e32477.chunk.css",
+    "main.js": "/Werkcation-Real-Estate/static/js/main.e292ab60.chunk.js",
+    "main.js.map": "/Werkcation-Real-Estate/static/js/main.e292ab60.chunk.js.map",
     "runtime-main.js": "/Werkcation-Real-Estate/static/js/runtime-main.4e9c363c.js",
     "runtime-main.js.map": "/Werkcation-Real-Estate/static/js/runtime-main.4e9c363c.js.map",
-    "static/js/2.8d5b883b.chunk.js": "/Werkcation-Real-Estate/static/js/2.8d5b883b.chunk.js",
-    "static/js/2.8d5b883b.chunk.js.map": "/Werkcation-Real-Estate/static/js/2.8d5b883b.chunk.js.map",
+    "static/js/2.cc7e71b4.chunk.js": "/Werkcation-Real-Estate/static/js/2.cc7e71b4.chunk.js",
+    "static/js/2.cc7e71b4.chunk.js.map": "/Werkcation-Real-Estate/static/js/2.cc7e71b4.chunk.js.map",
     "index.html": "/Werkcation-Real-Estate/index.html",
-    "precache-manifest.4f26df7895b2676048be1d5df7f49eb9.js": "/Werkcation-Real-Estate/precache-manifest.4f26df7895b2676048be1d5df7f49eb9.js",
+    "precache-manifest.36827fd5a865a22d99606137a6ba89fc.js": "/Werkcation-Real-Estate/precache-manifest.36827fd5a865a22d99606137a6ba89fc.js",
     "service-worker.js": "/Werkcation-Real-Estate/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/Werkcation-Real-Estate/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.8d5b883b.chunk.js.LICENSE.txt": "/Werkcation-Real-Estate/static/js/2.8d5b883b.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Werkcation-Real-Estate/static/media/logo.5d5d9eef.svg"
+    "static/css/main.64e32477.chunk.css.map": "/Werkcation-Real-Estate/static/css/main.64e32477.chunk.css.map",
+    "static/js/2.cc7e71b4.chunk.js.LICENSE.txt": "/Werkcation-Real-Estate/static/js/2.cc7e71b4.chunk.js.LICENSE.txt",
+    "static/media/FilterIcon.svg": "/Werkcation-Real-Estate/static/media/FilterIcon.6e7225c0.svg",
+    "static/media/Logo.svg": "/Werkcation-Real-Estate/static/media/Logo.f2886879.svg",
+    "static/media/MenuIcon.svg": "/Werkcation-Real-Estate/static/media/MenuIcon.d3087840.svg",
+    "static/media/SearchIcon.svg": "/Werkcation-Real-Estate/static/media/SearchIcon.83ca0f26.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4e9c363c.js",
-    "static/js/2.8d5b883b.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.8eaefe3f.chunk.js"
+    "static/js/2.cc7e71b4.chunk.js",
+    "static/css/main.64e32477.chunk.css",
+    "static/js/main.e292ab60.chunk.js"
   ]
 }
