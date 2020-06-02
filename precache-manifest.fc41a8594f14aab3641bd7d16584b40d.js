@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bae1100f62c0f47a3d59548242027881",
+    "revision": "67919f59c679e258533ac54fd7756764",
     "url": "/Werkcation-Real-Estate/index.html"
   },
   {
-    "revision": "514acf9098d62b545c35",
-    "url": "/Werkcation-Real-Estate/static/css/main.64e32477.chunk.css"
+    "revision": "faf709b031699b7880c8",
+    "url": "/Werkcation-Real-Estate/static/css/main.64e51ac5.chunk.css"
   },
   {
-    "revision": "996149eee5e269afe25d",
-    "url": "/Werkcation-Real-Estate/static/js/2.f80afe33.chunk.js"
+    "revision": "9de769b8d570c1b5cdeb",
+    "url": "/Werkcation-Real-Estate/static/js/2.2aed626f.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Werkcation-Real-Estate/static/js/2.f80afe33.chunk.js.LICENSE.txt"
+    "url": "/Werkcation-Real-Estate/static/js/2.2aed626f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "514acf9098d62b545c35",
-    "url": "/Werkcation-Real-Estate/static/js/main.b3f85ee5.chunk.js"
+    "revision": "faf709b031699b7880c8",
+    "url": "/Werkcation-Real-Estate/static/js/main.7f49ede9.chunk.js"
   },
   {
     "revision": "6fc7515d5f73fd216cc7",
     "url": "/Werkcation-Real-Estate/static/js/runtime-main.4e9c363c.js"
+  },
+  {
+    "revision": "d4bd0a2daea0dac23f02cb5e7657cab1",
+    "url": "/Werkcation-Real-Estate/static/media/CrossIcon.d4bd0a2d.svg"
   },
   {
     "revision": "a37ddd402d82403d2bb2871747ad0ae4",
