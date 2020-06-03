@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Werkcation-Real-Estate/precache-manifest.10b7bf4da0f35bd01810f6a789dfc7ca.js"
+  "/Werkcation-Real-Estate/precache-manifest.8f936b90b1af3aac37c50f4259456fe4.js"
 );
 
 self.addEventListener('message', (event) => {
