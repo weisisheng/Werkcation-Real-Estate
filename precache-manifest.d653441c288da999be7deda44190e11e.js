@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74a2b971ad71b4eeae4b829659f88626",
+    "revision": "7721cefdb885b3ec539f6694480efde2",
     "url": "/Werkcation-Real-Estate/index.html"
   },
   {
-    "revision": "f210f56ebf80c98967b5",
+    "revision": "28419ff648304834ed09",
     "url": "/Werkcation-Real-Estate/static/css/main.5c6cd8b9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Werkcation-Real-Estate/static/js/2.2aed626f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f210f56ebf80c98967b5",
-    "url": "/Werkcation-Real-Estate/static/js/main.85953fd9.chunk.js"
+    "revision": "28419ff648304834ed09",
+    "url": "/Werkcation-Real-Estate/static/js/main.4b19de51.chunk.js"
   },
   {
     "revision": "6fc7515d5f73fd216cc7",
