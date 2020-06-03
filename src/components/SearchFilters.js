@@ -13,8 +13,8 @@ class SearchFilter extends Component {
 
   render() {
     return (
-      <section className="bg-gray-800">
-        <div className="flex justify-between px-4 py-3">
+      <section className="bg-gray-800 xl:w-72 xl:flex-shrink-0">
+        <div className="flex justify-between px-4 py-3 xl:hidden">
           <div className="relative w-full max-w-xs">
             <div className="absolute inset-y-0 left-0 flex items-center pl-3">
               <img src={SearchIcon} alt="search-icon" />
@@ -33,11 +33,18 @@ class SearchFilter extends Component {
             <span className="text-white ml-1">Filters</span>
           </button>
         </div>
-        {this.state.isOpen && (
-          <form>
-            <div className=" px-4 py-4 border-2 border-gray-900 sm:flex sm:-mx-2">
-              <div className="flex -mx-2 sm:w-1/2 sm:mx-0">
-                <label className="block w-1/2 px-2">
+
+        <form
+          className={
+            this.state.isOpen
+              ? ""
+              : "hidden xl:flex xl:flex-col xl:justify-between xl:h-full"
+          }
+        >
+          <div className="lg:flex xl:block xl:overflow-y-auto">
+            <div className=" px-4 py-4 border-t-2 border-gray-900 sm:flex sm:-mx-2 lg:w-3/10 xl:border-t-0 xl:w-full">
+              <div className="flex flex-wrap -mx-2 sm:w-full sm:mx-0">
+                <label className="block w-1/2 px-2 sm:w-1/4 lg:w-1/2">
                   <span className="text-sm text-gray-500 font-semibold">
                     Bedrooms
                   </span>
@@ -46,7 +53,7 @@ class SearchFilter extends Component {
                   </select>
                 </label>
 
-                <label className="block w-1/2 px-2">
+                <label className="block w-1/2 px-2 sm:w-1/4 lg:w-1/2">
                   <span className="text-sm text-gray-500 font-semibold shadow ">
                     Bathrooms
                   </span>
@@ -54,9 +61,7 @@ class SearchFilter extends Component {
                     <option>2</option>
                   </select>
                 </label>
-              </div>
-              <div className="mt-4 sm:w-1/2 sm:mt-0 sm:px-2">
-                <label className="block">
+                <label className="block w-full mt-5 px-2 sm:w-1/2 sm:mt-0 lg:w-full">
                   <span className="text-sm text-gray-500 font-semibold">
                     Price Range
                   </span>
@@ -66,12 +71,13 @@ class SearchFilter extends Component {
                 </label>
               </div>
             </div>
-            <div className="px-4 py-3 ">
+
+            <div className="px-4 py-3 lg:w-3/10 border-t-2 border-gray-900 lg:border-l xl:w-full">
               <span className="text-md text-gray-500 font-semibold">
                 Property Type
               </span>
-              <div className="sm:flex">
-                <label className="mt-3 sm:w-1/4 sm:px-2 flex items-center">
+              <div className="sm:flex lg:block">
+                <label className="mt-3 sm:w-1/4 sm:px-2 flex items-center lg:w-full lg:px-0">
                   <input
                     type="radio"
                     className="form-radio bg-gray-900 border-0"
@@ -80,7 +86,7 @@ class SearchFilter extends Component {
                   />
                   <span className="ml-2 text-white">House</span>
                 </label>
-                <label className="mt-3 sm:w-1/4 sm:px-2 flex items-center">
+                <label className="mt-3 sm:w-1/4 sm:px-2 flex items-center lg:w-full lg:px-0">
                   <input
                     type="radio"
                     className="form-radio bg-gray-900 border-0"
@@ -89,7 +95,7 @@ class SearchFilter extends Component {
                   />
                   <span className="ml-2 text-white">Apartment</span>
                 </label>
-                <label className="mt-3 sm:w-1/4 sm:px-2 flex items-center">
+                <label className="mt-3 sm:w-1/4 sm:px-2 flex items-center lg:w-full lg:px-0">
                   <input
                     type="radio"
                     className="form-radio bg-gray-900 border-0"
@@ -98,7 +104,7 @@ class SearchFilter extends Component {
                   />
                   <span className="ml-2 text-white">Loft</span>
                 </label>
-                <label className="mt-3 sm:w-1/4 sm:px-2 flex items-center">
+                <label className="mt-3 sm:w-1/4 sm:px-2 flex items-center lg:w-full lg:px-0">
                   <input
                     type="radio"
                     className="form-radio bg-gray-900 border-0"
@@ -109,12 +115,13 @@ class SearchFilter extends Component {
                 </label>
               </div>
             </div>
-            <div className="px-4 py-4 border-t-2 border-gray-900">
+
+            <div className="px-4 py-4 border-t-2 border-gray-900 lg:w-2/5 lg:border-l  xl:w-full">
               <span className="text-md text-gray-500 font-semibold">
                 Amenities
               </span>
               <div className="sm:flex sm:flex-wrap sm:-mx-2">
-                <label className="mt-2 flex items-center sm:w-1/4 sm:px-2">
+                <label className="mt-2 flex items-center sm:w-1/4 sm:px-2 lg:w-1/2 xl:w-full">
                   <input
                     type="checkbox"
                     className="form-checkbox"
@@ -122,7 +129,7 @@ class SearchFilter extends Component {
                   />
                   <span className="ml-3 text-white">Balcony</span>
                 </label>
-                <label className="mt-2 flex items-center sm:w-1/4 sm:px-2">
+                <label className="mt-2 flex items-center sm:w-1/4 sm:px-2 lg:w-1/2 xl:w-full">
                   <input
                     type="checkbox"
                     className="form-checkbox"
@@ -130,7 +137,7 @@ class SearchFilter extends Component {
                   />
                   <span className="ml-3 text-white">Air Conditioning</span>
                 </label>
-                <label className="mt-2 flex items-center sm:w-1/4 sm:px-2">
+                <label className="mt-2 flex items-center sm:w-1/4 sm:px-2 lg:w-1/2 xl:w-full">
                   <input
                     type="checkbox"
                     className="form-checkbox"
@@ -138,7 +145,7 @@ class SearchFilter extends Component {
                   />
                   <span className="ml-3 text-white">Pool</span>
                 </label>
-                <label className="mt-2 flex items-center sm:w-1/4 sm:px-2">
+                <label className="mt-2 flex items-center sm:w-1/4 sm:px-2 lg:w-1/2 xl:w-full">
                   <input
                     type="checkbox"
                     className="form-checkbox"
@@ -146,7 +153,7 @@ class SearchFilter extends Component {
                   />
                   <span className="ml-3 text-white">Beach</span>
                 </label>
-                <label className="mt-2 flex items-center sm:w-1/4 sm:px-2">
+                <label className="mt-2 flex items-center sm:w-1/4 sm:px-2 lg:w-1/2 xl:w-full">
                   <input
                     type="checkbox"
                     className="form-checkbox"
@@ -154,7 +161,7 @@ class SearchFilter extends Component {
                   />
                   <span className="ml-3 text-white">Pet friendly</span>
                 </label>
-                <label className="mt-2 flex items-center sm:w-1/4 sm:px-2">
+                <label className="mt-2 flex items-center sm:w-1/4 sm:px-2 lg:w-1/2 xl:w-full">
                   <input
                     type="checkbox"
                     className="form-checkbox"
@@ -162,7 +169,7 @@ class SearchFilter extends Component {
                   />
                   <span className="ml-3 text-white">Kid Friendly</span>
                 </label>
-                <label className="mt-2 flex items-center sm:w-1/4 sm:px-2">
+                <label className="mt-2 flex items-center sm:w-1/4 sm:px-2 lg:w-1/2 xl:w-full">
                   <input
                     type="checkbox"
                     className="form-checkbox"
@@ -172,16 +179,17 @@ class SearchFilter extends Component {
                 </label>
               </div>
             </div>
-            <div className="px-4 py-4 bg-gray-900 sm:text-right">
-              <button
-                type="button"
-                className="text-white font-semibold hover:bg-indigo-400 bg-indigo-500 py-2 w-full rounded-lg sm:w-auto sm:px-4"
-              >
-                Update results
-              </button>
-            </div>
-          </form>
-        )}
+          </div>
+
+          <div className="px-4 py-4 bg-gray-900 sm:text-right ">
+            <button
+              type="button"
+              className="text-white font-semibold hover:bg-indigo-400 bg-indigo-500 py-2 w-full rounded-lg sm:w-auto sm:px-4 xl:w-full"
+            >
+              Update results
+            </button>
+          </div>
+        </form>
       </section>
     );
   }
